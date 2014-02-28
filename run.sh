@@ -1,0 +1,1 @@
+g++ -o Img2Pdf Img2Pdf.cpp -lX11 -lpthread -std=c++0x `pkg-config --cflags --libs gtk+-2.0`
